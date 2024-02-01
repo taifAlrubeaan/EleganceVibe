@@ -162,4 +162,86 @@ a.footer{
     button:hover ,a:hover{
       opacity: 0.8;
     }
+    /* Request design consultation page */
+
+
+.h2  {
+    text-align: center;
+      color:  #140061;
+}
+
+.req  {
+  max-width: 600px;
+      height: 630px;
+      margin: 10% auto;
+      padding: 20px;
+      background-color:  rgb(248, 246, 234);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 2%;
+}
+
+.designRequestForm{
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+label {
+    margin-top:2vw;
+    color: #d76733; 
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #7f8c8d; 
+    border-radius: 5px;
+}
+
+/*consultation page   */
+
+   .cust-info{
+    background-color: rgb(95, 122, 140);
+    box-shadow: 0 0 20px rgba(52, 73, 94, 0.1);
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 2vw;
+    padding: 2vw;
+    border-radius: 10px;
     
+    }
+  
+    #info{
+    text-indent: 1vw;
+    display: block;
+    margin: 10px 0;
+    color:  #140061; 
+    font-size: 16px;
+    }
+  
+    #img{
+    margin-bottom: 1vw;
+    padding-bottom: 0.5vw;
+    }
+    p{
+    display:block;
+    color: #d76733;
+    }
+    section{
+  max-width: 600px;
+      height: 800px;
+      margin: 10% auto;
+      padding: 20px;
+      background-color:  rgb(248, 246, 234);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: 2%;
+}
+.inf{
+ color:  #140061 ; 
+}
