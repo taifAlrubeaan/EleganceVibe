@@ -54,7 +54,7 @@ button:hover {
 }
 
 
-//header
+/*header  */
 header {
     background-color: rgb(248, 246, 234); 
    margin-bottom: 2vw;
@@ -68,7 +68,7 @@ header {
     margin-left: 10px;
 }  
 
-//footer
+/*footer  */
  footer { 
     float: left;
     font-family: Arial;
