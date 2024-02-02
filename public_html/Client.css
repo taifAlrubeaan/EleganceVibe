@@ -120,7 +120,7 @@ a:hover {
      }
 
 #fot1, #fot2 {
-    width: 174px;
+    width: calc(174px / 500px * 100%);
     float: left;
 }
 
@@ -283,8 +283,11 @@ a.footer{
   
   }
 
-  #customize-button-container {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-  }
+p#contact {
+    color: #0a0863;
+    text-align: center;
+    margin-bottom: -5%;
+}
+#fot2 {
+    margin-left: 5%;
+}
