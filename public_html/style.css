@@ -165,9 +165,9 @@ a.footer{
     /* Request design consultation page */
 
 
-.h2  {
+#h2  {
     text-align: center;
-      color:  #140061;
+      color:  #d76733;
 }
 
 .req  {
@@ -189,7 +189,7 @@ a.footer{
 
 label {
     margin-top:2vw;
-    color: #d76733; 
+    color: #140061; 
 }
 
 select,
@@ -200,6 +200,15 @@ input {
     box-sizing: border-box;
     border: 1px solid #7f8c8d; 
     border-radius: 5px;
+}
+button.f1{
+background-color: rgb(128, 43, 128);
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      margin-left: : 50px;
+      width: 50%;
 }
 
 /*consultation page   */
@@ -229,11 +238,11 @@ input {
     }
     p{
     display:block;
-    color: #d76733;
+    color:#140061;
     }
     section{
   max-width: 600px;
-      height: 800px;
+      height: 730px;
       margin: 10% auto;
       padding: 20px;
       background-color:  rgb(248, 246, 234);
@@ -242,6 +251,7 @@ input {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       margin-top: 2%;
 }
-.inf{
+pre{
  color:  #140061 ; 
+ font-size: 16px;
 }
