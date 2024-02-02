@@ -90,10 +90,9 @@ a:hover {
    { margin-right: 0%;
      margin-left: 60%; }
 
-   
-   
-//header
-header {
+  
+/*header  */
+   header {
     background-color: rgb(248, 246, 234); 
    margin-bottom: 2vw;
     text-align: center;
@@ -103,10 +102,7 @@ header {
     color: #0a0863;
     text-align: left;
     text-shadow: 2px 2px 5px #34495e; 
-    margin-left: 10px;
-}  
-
-//footer
+    margin-left: 10px; }
  footer { 
     float: left;
     font-family: Arial;
@@ -114,6 +110,7 @@ header {
     background-color: rgb(248, 246, 234); 
     font-size: small;
     line-height: 1.5;}
+
 
 
 .footer-sections {
@@ -150,8 +147,7 @@ a.footer{
     color: #0a0863;
 }/* end footer css*/
 
-
-//logo
+/*logo*/
 .logo {
       display: block;
       width: 150px;
