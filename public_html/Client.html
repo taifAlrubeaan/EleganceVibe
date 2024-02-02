@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="client.css" type="text/css"/>
+    <title>Client </title>
+   </head>
+   
+<body>
+    
+    <header>
+         <div id="head">
+             <img src="image/logo.png" alt="logo" class="logo" />
+         </div>
+    </header>
+    
+    <div class="container">
+        <section class="welcome-section" id="welcomeSection"><h1>Welcome Ahmad </h1></section>
+        <section id="log">
+          <a href="index.html">Log Out </a>
+        </section>
+        <section class="client-info-section" id="clientInfoSection">
+        <h3> <hr><br>     Your Information :<br></h3>
+        <p>First Name: Ahmad</p>
+        <p>Last Name: Alkhluqi</p>
+        <p>Email: AhmadAlkhluqi@gmail.com</p>
+    </section>
+
+        <section class="client-info-section" id="clientInfoSection">
+            <h3><hr><br>Interior Design </h3>
+            <div class="filter-bar">
+                <label for="designCategoryFilter">Select Category:</label>
+                <select id="designCategoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="Modern">Modern</option>
+                    <option value="Country">Country</option>
+                    <option value="Coastal">Coastal</option>
+                    <option value="Bohemian">Bohemian</option>
+                </select>
+                <button id="filterButton">Filter</button>
+            </div>
+
+            <table id="designersTable">
+                <thead>
+                    <tr>
+                        <th>Designer</th>
+                        <th>Speciality</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="designer-row" data-category="modern">
+                        <td><a href="portfolio.html"> <img src="image/d1.jpg" alt=" Interior Design"> Interior Design</a></td>
+                        <td>Modern</td>
+                        <td><a href="consultation.html">Request Design Consultation</a></td>
+                    </tr>
+                    
+                    <tr class="designer-row" data-category="country">
+                        <td><a href="portfolio.html"> <img src="image/d2.png" alt="Fusion Interiors"> Fusion Interiors</a></td>
+                        <td>Country</td>
+                        <td><a href="consultation.html">Request Design Consultation</a></td>
+                    </tr>
+                    <tr class="designer-row" data-category="coastal">
+                        <td><a href="portfolio.html"> <img src="image/d3.jpg" alt="Refined Spaces">Refined Spaces</a></td>
+                        <td>Coastal</td>
+                        <td><a href="consultation.html">Request Design Consultation</a></td>
+                    </tr>
+                    <tr class="designer-row" data-category="bohemian">
+                        <td><a href="portfolio.html"> <img src="image/d4.jpg" alt=" Prestige Decor">Prestige Decor</a></td>
+                        <td>Bohemian</td>
+                        <td><a href="consultation.html">Request Design Consultation</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="consultation-requests-section">
+            <h3> <br><br>Previous Design Consultation Requests</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Designer</th>
+                        <th>Room Type</th>
+                        <th>Room Dimensions</th>
+                        <th>Design Category</th>
+                        <th>Color Preferences</th>
+                        <th>Request Date</th>
+                        <th>Design Consultation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="image/d2.png" alt="Fusion Interiors"> <br>Fusion Interiors</td>
+                        <td>Living Room</td>
+                        <td>4×5m</td>
+                        <td>Modern</td>
+                        <td>Beige and green</td>
+                        <td>9/1/2024</td>
+                        <td>pending consultation</td>
+                    </tr>
+                    <tr>
+                        <td> <img src="image/d3.jpg" alt="Refined Spaces"><br>Refined Spaces</td>
+                        <td>Bedroom</td>
+                        <td>3×4m</td>
+                        <td>coastal</td>
+                        <td>Blue and white</td>
+                        <td>7/1/2024</td>
+                        <td><img src="image/e1.webp" alt="bedroom of coastal" style="max-width:70%;"><br> accented this light and airy coastal bedroom
+                         with multiple shades of blue that keeps the blue-and-white palette from feeling too one note.</td>
+                    </tr>
+                    <tr>
+                        <td> <img src="image/d4.jpg" alt=" Prestige Decor"><br>Prestige Decor</td>
+                        <td>Kitchen</td>
+                        <td>3×3m</td>
+                        <td>Minimalist</td>
+                        <td>Black and white</td>
+                        <td>5/1/2024</td>
+                        <td>consultation declined</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        
+    </div>
+    <script src="script.js"></script>
+
+    
+     <footer>
+         <div id="footer">
+            <div class="footer-sections">
+                <div id="fot1">
+                    <br>
+                    <a href="" class="footer">About Elegance Vibe><br />
+                    <a href="" class="footer">Contact Us</a><br />
+                    <a href="" class="footer">FAQ</a>
+                </div>
+                <div id="fot2">
+                
+                    <br>
+                    <a href="" class="footer">Terms of Use</a><br />
+                     <a href="" class="footer">Privacy Policy</a>
+                </div>
+            </div>
+            <div id="fot3">
+               
+                <p>
+                    <a href="" class="footer"><img src="image/whatsapp.png" alt="whatsapp" /></a>
+                    <a href="" class="footer"><img src="image/twitter.png" alt="twitter" /></a>
+                    <a href="" class="footer"><img src="image/instagram.png" alt="instagram" /></a>
+                    <br> 
+                    © 2024 Elegance Vibe
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
