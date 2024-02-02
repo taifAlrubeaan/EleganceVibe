@@ -151,3 +151,11 @@ a.footer{
 }/* end footer css*/
 
 
+//logo
+.logo {
+      display: block;
+      width: 150px;
+      
+      margin: 0;
+      margin-bottom: 20px;
+    }
