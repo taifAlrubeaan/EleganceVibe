@@ -1,3 +1,15 @@
+
+
+// Toggle the mobile menu on/off
+
+document.addEventListener('DOMContentLoaded', function () {
+    const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+    const navList = document.querySelector('.nav-list');
+
+    mobileMenuIcon.addEventListener('click', function () {
+        navList.classList.toggle('show');
+    });
+});
 // Assume client data is obtained from a server or other data source
 const clientData = {
     firstName: "Ahmad",
@@ -59,36 +71,11 @@ function updateDesignersSection() {
     `;
 }
 
-// Function to update consultation requests section
-function updateConsultationRequestsSection() {
-    // Assume consultationRequestsData is an array of consultation request objects
-    const consultationRequestsData = [
-        // Add consultation request data as needed
-    ];
-
-    const consultationRequestsSection = document.getElementById("consultationRequestsSection");
-    consultationRequestsSection.innerHTML = `
-        <h3>Your Consultation Requests</h3>
-        <table>
-            <thead>
-                <tr>
-                    <!-- Add table header content as needed -->
-                </tr>
-            </thead>
-            <tbody>
-                ${consultationRequestsData.map(request => `
-                    <tr>
-                        <!-- Add table row content as needed -->
-                    </tr>
-                `).join('')}
-            </tbody>
-        </table>
-    `;
-}
 
 
 // Call the update functions when the page loads
 updateWelcomeSection();
 updateClientInfoSection();
 updateDesignersSection();
-updateConsultationRequestsSection();
+
+
