@@ -1,87 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-      <link rel="stylesheet" href="style.css" type="text/css"/>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Request Design Consultation Page</title>
+<html lang="en"><head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="Client.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <title>Request Design Consultation</title>
+
+  
 </head>
 
 <body>
-   
-<header>
-    <div id="head">
-        <img src="image/logo.png" alt="Logo" class="logo" >
-        </div>
-</header>
+ 
+  <header>
+      <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+      <div id="navbar">
+         <div id="head">
+           <img src="image/logo.png" alt="logo" class="logo"> 
+         </div>
+           <div>
+              <nav id="navbar-right">
+                 <ul class="nav-list">
+                   
+           <li><a href="index.html">Homepage</a></li>
+           <li><a href="consultation.html">Consultation</a></li>
+           <li><a href="Request design consultation.html">RequestDesignConsultation</a></li>
+           <li><a href="Client.html">Client</a></li>
+           
+
+                 </ul>
+                 <!-- Add a button for the mobile menu -->
+                 <div class="mobile-menu-icon">☰</div>
+             </nav>
+             
+         </div>
+     </div>
+ </header>
 <br>
- <h1 class="header">Request design consultation page </h1>
+<h1 class="header">Request design consultation page </h1>
 
 <section class="req">
- <h2 id="h2">Client's Design Consultation Request</h2>
- <hr>
- <br>
-    <form id="designRequestForm" action="index.html" method="get" >
-    
-        <label for="roomType">Room Type:</label>
-        <select id="roomType" name="roomType" required>
-            <option value="bedroom">Bedroom</option>
-            <option value="livingRoom">Living Room</option>
-            <option value="kitchen">Kitchen</option>
-         
-        </select>
-        <br><br>
-
-    
-        <label for="width">Room Width (meters):</label>
-        <input type="number" id="width" name="width"  placeholder="Enter width" required min="1">
-<br><br>
-        <label for="length">Room Length (meters):</label>
-        <input type="number" id="length" name="length" placeholder="Enter length" required min="1">
-<br><br>
-
-        <label for="designCategory">Design Category:</label>
-        <select id="designCategory" name="designCategory" required>
-            <option value="modern">Modern</option>
-            <option value="vintage">Vintage</option>
-            <option value="minimalist">Minimalist</option>
-        </select>
-<br><BR>
+<h2 id="h2">Client's Design Consultation Request</h2>
+<hr>
+<br>
+  <form id="designRequestForm" action="index.html" method="get">
+  
+      <label for="roomType">Room Type:</label>
+      <select id="roomType" name="roomType" required="">
+          <option value="bedroom">Bedroom</option>
+          <option value="livingRoom">Living Room</option>
+          <option value="kitchen">Kitchen</option>
        
-        <label for="colorPreferences">Color Preferences:</label>
-        <input type="text" id="colorPreferences" name="colorPreferences" placeholder="Enter color preferences">
+      </select>
+      <br><br>
+
+  
+      <label for="width">Room Width (meters):</label>
+      <input type="number" id="width" name="width" placeholder="Enter width" required="" min="1">
 <br><br>
-       
-        <button type="submit" class="f1">Send</button>
-    </form>
+      <label for="length">Room Length (meters):</label>
+      <input type="number" id="length" name="length" placeholder="Enter length" required="" min="1">
+<br><br>
+
+      <label for="designCategory">Design Category:</label>
+      <select id="designCategory" name="designCategory" required="">
+          <option value="modern">Modern</option>
+          <option value="vintage">Vintage</option>
+          <option value="minimalist">Minimalist</option>
+      </select>
+<br><br>
+     
+      <label for="colorPreferences">Color Preferences:</label>
+      <input type="text" id="colorPreferences" name="colorPreferences" placeholder="Enter color preferences">
+<br><br>
+     
+      <button type="submit" class="f1">Send</button>
+  </form>
 </section>
 <footer>
-    <div id="footer">
-       <div class="footer-sections">
-           <div id="fot1">
-               <h3>About</h3>
-               <a href="" class="footer">About Elegance Vibe><br />
-               <a href="" class="footer">Contact Us</a><br />
-               <a href="" class="footer">FAQ</a>
-           </div>
-           <div id="fot2">
-           
-               <h3>Support</h3>
-               <a href="" class="footer">Terms of Use</a><br />
-                <a href="" class="footer">Privacy Policy</a>
-           </div>
-       </div>
-       <div id="fot3">
-           <h3>Contact Us</h3>
-           <p>
-               <a href="" class="footer"><img src="image/whatsapp.png" alt="whatsapp" /></a>
-               <a href="" class="footer"><img src="image/twitter.png" alt="twitter" /></a>
-               <a href="" class="footer"><img src="image/instagram.png" alt="instagram" /></a>
-               <br />
-               © 2024 Elegance Vibe
-           </p>
-       </div>
-   </div>
+  <div id="footer">
+     
+      <p id="contact"> Contact Us  <br>
+          Riaydh, Saudi Arabia <br>
+          <a id="link" href="mailto: ContactUs@EleganceVibe.com"> ContactUs@EleganceVibe.com</a>
+         </p>
+     <div class="footer-sections">
+         <div id="fot1">
+             <br>
+             <a href="" class="footer">About Elegance Vibe </a> <br>
+             <a href="" class="footer">FAQ</a>
+         </div>
+
+        
+
+         <div id="fot2">
+             <br>
+             <a href="" class="footer">Terms of Use</a><br>
+              <a href="" class="footer">Privacy Policy</a>
+         </div>
+     </div>
+     <div id="fot3">
+        
+         <p>
+             <a href="" class="footer"><img src="image/whatsapp.png" alt="whatsapp"></a>
+             <a href="" class="footer"><img src="image/twitter.png" alt="twitter"></a>
+             <a href="" class="footer"><img src="image/instagram.png" alt="instagram"></a>
+             <br> 
+             © 2024 Elegance Vibe
+         </p>
+     </div>
+ </div>
 </footer>
-</body>
-</html>
+
+</body></html>
