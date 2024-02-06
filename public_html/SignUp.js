@@ -15,6 +15,6 @@ function submitcForm() {
  // userType.preventDefault();
   
   // Redirect to the client's homepage
-  window.location.href = "Client.html";
+   window.location.assign("client.html");
 }
   
