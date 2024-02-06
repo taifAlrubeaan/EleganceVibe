@@ -21,15 +21,20 @@
 
  <div class="cont">
     <h2 style="text-align: center;">Sign Up</h2>
+    <div class="user">
     <label style="font-weight: bold;">User Type:</label>
     <br>
     <br>
-    <label for="designer">Designer</label>
-    <input type="radio" id="designer" name="userType" value="designer" onclick="showForm('designer')">
+    <input  class="user" type="radio" id="designer" name="userType" value="designer" onclick="showForm('designer')">
+    <label class="user" for="designer">Designer</label>
     
-    <label for="client">Client</label>
-    <input type="radio" id="client" name="userType" value="client" onclick="showForm('client')">
-   
+    <br>
+    <br>
+    <input  class="user" type="radio" id="client" name="userType" value="client" onclick="showForm('client')">
+    <label class="user" for="client">Client</label>
+    
+  </div>
+
       <br>
       <br>
    
@@ -53,10 +58,15 @@
     <input type="file" id="logo" accept="image/*" required="">
 
     <label>Speciality in Interior Design:</label>
-    <input type="checkbox" id="modern"> <label for="modern">Modern</label>
-    <input type="checkbox" id="country"> <label for="country">Country</label>
-    <input type="checkbox" id="coastal"> <label for="coastal">Coastal</label>
-    <input type="checkbox" id="bohemian"> <label for="bohemian">Bohemian</label>
+    <br>
+    <br>
+    <input type="checkbox" class="check" id="modern"> <label for="modern">Modern</label>
+    <br>
+    <input type="checkbox" class="check" id="country"> <label for="country">Country</label>
+    <br>
+    <input type="checkbox" class="check" id="coastal"> <label for="coastal">Coastal</label>
+    <br>
+    <input type="checkbox" class="check" id="bohemian"> <label for="bohemian">Bohemian</label>
     <br>
     <br> 
     <button onclick="  submitdForm()">Submit</button>
