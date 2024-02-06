@@ -24,7 +24,7 @@
                   <option value="designer">Designer</option>
                   <option value="client">Client</option>
               </select>
-              <button class="cont" type="submit">Log In</button>
+             <input type="button" value="Log In" onclick="redirectToHomepage()">
               <h5> New user ? <a href="signup.html" class="link">Sign Up</a> </h5>
              </form>
       </div>
@@ -64,23 +64,20 @@
    </footer>
       
       <script>
-          document.getElementById("loginForm").addEventListener("submit", function(event) {
-              event.preventDefault(); 
-              // // Get the input values
-              var email = document.getElementById("email").value;
-              var password = document.getElementById("password").value;
-              var userType = document.getElementById("userType").value;
-              // Perform some validation
-              if (email === "admin@example.com" && password === "password") {
-                 if (userType === "designer") {
-                    // Redirect to the designer's homepage
-                    window.location.href = "designer.html";}
-              else if (userType === "client") {
-            // Redirect to the client's homepage
-            window.location.href = "client.html";}
-            }else {
-            alert("Invalid email or password");  }});
+          function redirectToHomepage() {
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      var userType = document.getElementById("userType").value;
 
+      // Perform validation and authentication here
+      // ...
+      // Redirect the user based on the user type
+      if (userType === "designer") {
+        window.location.href = "Designer.html";
+      } else if (userType === "client") {
+        window.location.href = "Client.html";
+      }
+    }
       </script>
 
 
