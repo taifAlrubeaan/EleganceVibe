@@ -39,7 +39,7 @@
       <br>
       <br>
    
-  <form id="designer-form">
+  <form id="designer-form"  onsubmit="submitdForm(event)">
     <label for="first-name-designer">First Name:</label>
     <input type="text" id="first-name-designer" required="">
 
@@ -70,10 +70,11 @@
     <input type="checkbox" class="check" id="bohemian"> <label for="bohemian">Bohemian</label>
     <br>
     <br> 
-    <button onclick="  submitdForm()">Submit</button>
+     <!--<button onclick="  submitdForm()">Submit</button>-->
+    <input type="submit" value="Sign Up" class="button">
   </form>
 
-  <form id="client-form">
+  <form id="client-form" onsubmit="submitcForm(event)">
     <label for="first-name-client">First Name:</label>
     <input type="text" id="first-name-client" required="">
 
@@ -86,7 +87,8 @@
     <label for="password-client">Password:</label>
     <input type="password" id="password-client" placeholder="**********" required="">
 
-    <button onclick=" submitcForm()">Submit</button>
+ <!--   <button onclick=" submitcForm()">Submit</button> -->
+      <input type="submit" value="Sign Up" class="button">
   </form>
 </div>
     
