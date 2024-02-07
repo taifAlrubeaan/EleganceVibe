@@ -289,6 +289,7 @@ color: #0a0863;
 text-align: left;
 text-shadow: 2px 2px 5px #34495e; 
 margin-left: 10px; }
+
 footer { 
 float: left;
 font-family: Arial;
@@ -360,33 +361,8 @@ color: #0a0863;
 }
 /****************/
 
-/* 
-
-.nav-list {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
 
 
-}
-
-.nav-list li  {
-
-color: #020202;
-float: left;
-text-align:left;
-padding: 4%;
-text-decoration: none;
-font-weight: bold;
-line-height: 4%;
-border-radius:4%;
-margin-left:1%;
-font-size:medium;
-height: 50%;
-padding:5% 3%;
-
-}   */
 
 /* Style the mobile menu icon */
 .mobile-menu-icon {
@@ -485,38 +461,7 @@ z-index: 100;
 
 }
 /********************end of the navigation bar**********************/
-/*
 
-#navbar {
-background-color: rgb(248, 246, 234); 
-background-size: 100%;
-position: relative;
-width:100%;
-padding: 1% 1%;
-height: 25%;
-top: 0;
-z-index: 100;
-position: fixed;
-
-
-}
-
-
-#navbar li a:hover {
-background-color: rgb(199, 144, 199);
-size-adjust: 50%;
-padding:5% 3%;
-}
-
-#navbar-right {
-  display: flex;
-  margin-left: 15%;
-  margin-top: -10% ;
-flex-direction: row;
-justify-content: flex-start;
-flex:0;
-
-}  */
 
 p#contact {
 color: #0a0863;
@@ -532,7 +477,6 @@ margin-left: 43%;
 #fot2 {
 margin-left: 5%;
 }
-/*******************************************************/
 /*************************/
 a {
 color: rgb(128, 43, 128);
