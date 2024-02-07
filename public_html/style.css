@@ -73,6 +73,10 @@ header {
   border:none;
   border-radius: 2px;
   }
+  #index{
+      color: white;
+      font-size:18px;
+  }
   button:hover,a:hover {
     opacity: 0.8;
   }
