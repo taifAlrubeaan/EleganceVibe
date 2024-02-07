@@ -4,17 +4,19 @@ function showForm(userType) {
 }
 
 
-  function submitdForm() {
-  //userType.preventDefault();
+ function submitdForm(event) {
+  event.preventDefault();
   
-  // Redirect to the designer's homepage
+
+  // changes to the designer's homepage
   window.location.assign("Designer.html");
 }
 
-function submitcForm() {
- // userType.preventDefault();
+function submitcForm(event) {
+  event.preventDefault();
   
-  // Redirect to the client's homepage
-   window.location.assign("Client.html");
+
+  // changes to the client's homepage
+  window.location.assign ("Client.html");
 }
   

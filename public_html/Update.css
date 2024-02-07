@@ -67,15 +67,17 @@ background-color: rgb(128, 43, 128);
 /*header  */
 header {
 background-color: rgb(248, 246, 234); 
-margin-bottom: 2vw;
+margin-bottom: 1%;
 text-align: center;
 }
+
 h1.header {
 margin-top: 0.5vw;
 color: #0a0863;
 text-align: left;
 text-shadow: 2px 2px 5px #34495e; 
-margin-left: 10px; }
+margin-left: 10px; }  
+
 footer { 
 float: left;
 font-family: Arial;
@@ -118,16 +120,7 @@ color:#e67e22;
 }
 a.footer{
 color: #0a0863;
-}/* end footer css*/
-
-/*logo*/
-.logo {
-  display: block;
-  width: 150px;
-  
-  margin: 0;
-  margin-bottom: 20px;
-}
+}/* end footer css*/   
 
 
 
@@ -145,36 +138,7 @@ color: #0a0863;
 /* For larger devices like laptops and desktops */
 @media (min-width: 1024px) {
 }
-/****************/
 
-/* Navigation Styles */
-
-.nav-list {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-
-
-}
-
-.nav-list li  {
-
-color: #020202;
-float: left;
-text-align:left;
-padding: 4%;
-text-decoration: none;
-text-transform: uppercase;
-font-weight: bold;
-line-height: 4%;
-border-radius:4%;
-margin-left:1%;
-font-size:medium;
-height: 50%;
-padding:5% 3%;
-
-}  
 
 /* Style the mobile menu icon */
 .mobile-menu-icon {
@@ -187,106 +151,97 @@ top: -20%;
 /* Media Query for Small Screens */
 @media (max-width: 767px) {
 .nav-list {
-  display: none; /* Hide the regular navigation on small screens */
-  flex-direction: column;
-  position: absolute;
-  top: 60px; 
-  left: 0;
-  background-color: #ffffff;
-  width: 70%;
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    display: none; /* Hide the regular navigation on small screens */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    background-color: #ffffff;
+    width: 70%;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
 
 .nav-list.show {
-  display: flex;
+    display: flex;
 }
 
 .nav-list li a{
-color: #020202;
-float: left;
-text-align:left;
-padding: 4%;
-text-decoration: none;
-text-transform: uppercase;
-font-weight: bold;
-line-height: 4%;
-border-radius:4%;
-margin-left:1%;
-font-size:medium;
-height: 50%;
-padding:5% 3%;
+  color: rgb(128, 43, 128);
+  float: left;
+  text-align:left;
+  padding: 4%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 4%;
+  border-radius:4%;
+  margin-left:1%;
+  font-size:medium;
+  height: 50%;
+  padding:5% 3%;
 }   
 
 .mobile-menu-icon {
-  display: block; 
+    display: block; 
 }
 }
 /**************/
 
+/* Navigation Styles */
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+  
+  .nav-list li  {
+  color: #020202;
+  float: left;
+  text-align:left;
+  padding: 4%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 4%;
+  border-radius:4%;
+  margin-left:1%;
+  margin-bottom: 3%;
+  font-size:medium;
+  height: 50%;
+  padding:5% 3%;
+  
+  }  
 #navbar {
-background-color: rgb(248, 246, 234); 
+  background-color: rgb(248, 246, 234); 
 background-size: 100%;
-position: relative;
 width:100%;
 padding: 1% 1%;
-height: 25%;
+height:25%;
 top: 0;
 z-index: 100;
-position: fixed;
-
 
 }
-
-
+ 
 #navbar li a:hover {
-background-color: rgb(199, 144, 199);
-size-adjust: 50%;
-padding:5% 3%;
+  background-color: rgb(199, 144, 199);
+  size-adjust: 50%;
+  padding:5% 3%;
 }
-
+ 
 #navbar-right {
-  display: flex;
-  margin-left: 15%;
-  margin-top: -10% ;
-flex-direction: row;
-justify-content: flex-start;
-flex:0;
+    display: flex;
+    margin-left: 15%;
+    margin-top: -10% ;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex:0;
 
 }
-
-/**************/
-
-#navbar {
-background-color: rgb(248, 246, 234); 
-background-size: 100%;
-position: relative;
-width:100%;
-padding: 1% 1%;
-height: 25%;
-top: 0;
-z-index: 100;
-position: fixed;
+/********************end of the navigation bar**********************/
 
 
-}
 
-
-#navbar li a:hover {
-background-color: rgb(199, 144, 199);
-size-adjust: 50%;
-padding:5% 3%;
-}
-
-#navbar-right {
-  display: flex;
-  margin-left: 15%;
-  margin-top: -10% ;
-flex-direction: row;
-justify-content: flex-start;
-flex:0;
-
-}
-
+ /************************************************/
 
 p#contact {
 color: #0a0863;
