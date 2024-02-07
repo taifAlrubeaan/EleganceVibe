@@ -10,6 +10,23 @@ body {
     background-image: url("image/b.jpg");
 background-size:auto;
         }
+        .mainContent{
+            max-width: 900px;
+            
+            margin: 0  auto;
+            padding: 25px;
+            padding-bottom: 50px;
+            padding-top: 25px;
+            
+            
+            background-color: #fff; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            border-radius: 8px; 
+  
+  
+  
+        }
+        p a {text-align: right; float:right;}
 h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -29,7 +46,7 @@ section {
 }
 
 h2, h3 {
-    color: #333;
+    color: #140061;
 }
 
 .info {
@@ -44,18 +61,15 @@ table {
     margin-top: 1%;
     overflow-x: auto;
 }
-
-
-
 th, td {
-    border: 1px solid #bfbfbf;
-    padding: 10px;
-    text-align: left;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
 }
 
 th {
     background-color: #f2f2f2;
-}
+} 
+
 
 .filter-bar {
     margin-bottom: 10px;
