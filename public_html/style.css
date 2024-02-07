@@ -73,6 +73,10 @@ header {
   border:none;
   border-radius: 2px;
   }
+  #index{
+      color: white;
+      font-size:18px;
+  }
   button:hover,a:hover {
     opacity: 0.8;
   }
@@ -207,7 +211,6 @@ background-color: rgb(128, 43, 128);
     font-weight: bold;
     border: none;
     cursor: pointer;
-    margin-left: 50px;
     width: 50%;
 }
 
