@@ -38,10 +38,6 @@ form {
   display: none;
 }
 
-/*label {
-  display: block;
-  margin-bottom: 8px;
-}*/
 
 input, select {
   margin-bottom: 12px;
@@ -202,3 +198,4 @@ a:hover {
   color: rgb(128, 43, 128);
 }
 /************************/
+
