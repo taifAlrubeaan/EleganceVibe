@@ -1,6 +1,9 @@
 
 
 
+
+
+
 body {
     font-family: 'Georgia', 'Times', 'Times New Roman';
     background-color: #ffffff;
@@ -26,6 +29,15 @@ background-size:auto;
   
   
         }
+        select {
+            margin-bottom: 16px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+
         p a {text-align: right; float:right;}
 h1 {
     font-size: 2rem;
@@ -43,7 +55,7 @@ h1 {
 
 section {
     margin-bottom: 2%;
-}
+} 
 
 h2, h3 {
     color: #140061;
@@ -76,12 +88,13 @@ th {
 }
 
 button {
-    padding: 8px;
+    padding: 10px;
     background-color: rgb(128, 43, 128);
     color: #fff;
     border: none;
     cursor: pointer;
     box-shadow: 0 0 10px#ddd;
+    border-radius: 4px;
 }
 
 button:hover {
@@ -130,48 +143,52 @@ a:hover {
     text-align: left;
     text-shadow: 2px 2px 5px #34495e; 
     margin-left: 10px; }
- footer { 
-    float: left;
-    font-family: Arial;
-    width: 100%; 
-    background-color: rgb(248, 246, 234); 
-    font-size: small;
-    line-height: 1.5;}
+
+
+/**************************************new code****/
+
+footer { 
+  float: left;
+  font-family: Arial;
+  width: 100%; 
+  background-color: rgb(248, 246, 234); 
+  font-size: small;
+  line-height: 1.5;}
 
 
 
 .footer-sections {
-    padding-left: 40px;
-     }
+  padding-left: 40px;
+   }
 
 #fot1, #fot2 {
-    width: calc(174px / 500px * 100%);
-    float: left;
+  width: calc(174px / 500px * 100%);
+  float: left;
 }
 
 #fot3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 80px;
-    float: right;
-    text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 80px;
+  float: right;
+  text-align: center;
 }
 
 #fot3 img {
-    width: 3vw;
-    height: 3vw;
+  width: 3vw;
+  height: 3vw;
 }
 
 #fot1 a, #fot2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #fot1 a:hover, #fot2 a:hover {
-    text-decoration: underline; 
-    color:#e67e22;
+  text-decoration: underline; 
+  color:#e67e22;
 }
 a.footer{
-    color: #0a0863;
+  color: #0a0863;
 }/* end footer css*/
 
 /*logo*/
