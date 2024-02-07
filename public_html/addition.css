@@ -91,67 +91,9 @@ header {
       text-decoration: underline;
       color: rgb(128, 43, 128);
   }
-/*footer  */
-footer { 
-  float: left;
-  font-family: Arial;
-  width: 100%; 
-  background-color: rgb(248, 246, 234); 
-  font-size: small;
-  line-height: 1.5;}
-
-
-.footer-sections {
-  padding-left: 40px;
-   }
-
-#fot1, #fot2 {
-  width: 174px;
-  float: left;
-}
-
-#fot3 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 80px;
-  float: right;
-  text-align: center;
-}
-
-#fot3 img {
-  width: 3vw;
-  height: 3vw;
-}
-
-#fot1 a, #fot2 a {
-  text-decoration: none;
-}
-
-#fot1 a:hover, #fot2 a:hover {
-  text-decoration: underline; 
-  color:#e67e22;
-}
-a.footer{
-  color: #0a0863;
-}/* end footer css*/
-
-
-
 
 /**************************************new code****/
 
-/*header  */
-header {
-  background-color: rgb(248, 246, 234); 
- margin-bottom: 2vw;
-  text-align: center;
-}
-  h1.header {
-  margin-top: 0.5vw;
-  color: #0a0863;
-  text-align: left;
-  text-shadow: 2px 2px 5px #34495e; 
-  margin-left: 10px; }
 footer { 
   float: left;
   font-family: Arial;
@@ -221,36 +163,7 @@ a.footer{
 /* For larger devices like laptops and desktops */
 @media (min-width: 1024px) {
 }
-/****************/
 
-/* Navigation Styles */
-
-.nav-list {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-
-
-}
-
-.nav-list li  {
-
-color: #020202;
-float: left;
-text-align:left;
-padding: 4%;
-text-decoration: none;
-text-transform: uppercase;
-font-weight: bold;
-line-height: 4%;
-border-radius:4%;
-margin-left:1%;
-font-size:medium;
-height: 50%;
-padding:5% 3%;
-
-}  
 
 /* Style the mobile menu icon */
 .mobile-menu-icon {
@@ -278,12 +191,11 @@ top: -20%;
 }
 
 .nav-list li a{
-  color: #020202;
+  color: rgb(128, 43, 128);
   float: left;
   text-align:left;
   padding: 4%;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: bold;
   line-height: 4%;
   border-radius:4%;
@@ -299,20 +211,41 @@ top: -20%;
 }
 /**************/
 
+/* Navigation Styles */
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+  
+  .nav-list li  {
+  color: #020202;
+  float: left;
+  text-align:left;
+  padding: 4%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 4%;
+  border-radius:4%;
+  margin-left:1%;
+  margin-bottom: 3%;
+  font-size:medium;
+  height: 50%;
+  padding:5% 3%;
+  
+  }  
 #navbar {
   background-color: rgb(248, 246, 234); 
 background-size: 100%;
-position: relative;
 width:100%;
 padding: 1% 1%;
-height: 25%;
+height:25%;
 top: 0;
 z-index: 100;
-position: fixed;
-  
-  
+
 }
- 
  
 #navbar li a:hover {
   background-color: rgb(199, 144, 199);
@@ -329,6 +262,8 @@ position: fixed;
   flex:0;
 
 }
+/********************end of the navigation bar**********************/
+
 
 p#contact {
   color: #0a0863;
