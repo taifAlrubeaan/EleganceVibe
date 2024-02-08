@@ -147,13 +147,15 @@ a:hover {
 
 /**************************************new code****/
 
+
 footer { 
   float: left;
   font-family: Arial;
   width: 100%; 
   background-color: rgb(248, 246, 234); 
   font-size: small;
-  line-height: 1.5;}
+  line-height: 1.5;
+}
 
 
 
@@ -161,7 +163,7 @@ footer {
   padding-left: 40px;
    }
 
-#fot1, #fot2 {
+ #fot1, #fot2 {
   width: calc(174px / 500px * 100%);
   float: left;
 }
@@ -317,11 +319,10 @@ a.footer{
   
   }
   /********************end of the navigation bar**********************/
-
-p#contact {
+ p#contact {
     color: #0a0863;
     text-align: center;
-    margin-bottom: -5%;
+    margin-bottom: -10%;
 }
 a#link {
     color: rgb(128, 43, 128);
