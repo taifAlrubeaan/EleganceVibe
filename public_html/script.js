@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navList.classList.toggle('show');
     });
 });
+
 // Assume client data is obtained from a server or other data source
 const clientData = {
     firstName: "Ahmad",
