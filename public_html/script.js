@@ -1,5 +1,6 @@
 
 
+
 // Toggle the mobile menu on/off
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -10,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
         navList.classList.toggle('show');
     });
 });
-
 // Assume client data is obtained from a server or other data source
 const clientData = {
     firstName: "Ahmad",
